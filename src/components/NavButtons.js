@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 
 class NavButtons extends Component{
   render(){
+    let type = "";
+    !!this.props.type ? type = "nav-buttons" : type = "nav-buttons-questions";
     return(
-      <div className="nav-buttons">
+      <div className={type}>
         <PrevButton prev={this.props.prev}/>
         <NextButton next={this.props.next} step={this.props.step} userAnswers={this.props.userAnswers} submit={this.props.submit}/>
       </div>

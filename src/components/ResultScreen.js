@@ -122,7 +122,7 @@ class ResultScreen extends Component {
           </ul>
           <p className="profile-paragraph"><strong>Découvrez le témoignage de {profiles[userProfile].learnerName}, un{profiles[userProfile].learnerGender} de nos "{profiles[userProfile].learnerDesc}" :</strong></p>
           <iframe className="testimony" width="800" height="400" title="testimony" src={profiles[userProfile].urlVideo} allow="encrypted-media"></iframe>
-          <div><button onClick={this.retakeTest} className="primary">COMMENCER MAINTENANT</button></div>
+          <div><button onClick={this.retakeTest} className="primary margin-bottom">COMMENCER MAINTENANT</button></div>
         </div>
       </div>
     );

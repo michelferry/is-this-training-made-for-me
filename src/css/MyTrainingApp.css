@@ -22,7 +22,7 @@ body {
 
 h1 {
   font-family: "Aileron Light";
-  margin: 2% 0% 5% 0%;
+  margin: 2% 0% 2% 0%;
 }
 
 h2 {
@@ -41,7 +41,7 @@ h3 {
 #AppRoot {
   display: flex;
   align-items: center;
-  margin: 2% 0% 2% 0%;
+  margin: 0% 0% 0% 0%;
 }
 
 .horizontal-center {
@@ -100,13 +100,16 @@ button.secondary:hover {
   background-color: rgba(243,106,16,0.24);
 }
 
+.margin-bottom {
+  margin-bottom: 3%;
+}
 
 /* SPECIAL COMPONENTS */
 .highlight-section {
   background-color: #f3f3f3;
-  padding: 50px 15% 50px 15%;
+  padding: 2% 15% 2% 15%;
   font-size: 1.6em;
-  margin: 5% 0% 5% 0%;
+  margin: 3% 0% 3% 0%;
   text-align: left;
 }
 
@@ -131,7 +134,7 @@ button.secondary:hover {
 }
 
 .answers-group{
-  margin: 5% 0% 3% 15%;
+  margin: 3% 0% 3% 15%;
 }
 
 .answer{
@@ -300,15 +303,20 @@ input[type="checkbox"]:not(:checked), input[type="checkbox"]:checked {
   align-items: center;
   justify-content: flex-end;
   position: fixed;
-  bottom: 8%;
+  bottom: 3%;
 }
 
 .prev, .next {
-  width: 250px;
+  width: 12em;
   margin: 0px 15px 0px 15px;
 }
 
 .nav-buttons{
+  width: 60%;
+  text-align: center;
+}
+
+.nav-buttons-questions{
   width: 100%;
   text-align: center;
 }
@@ -316,8 +324,9 @@ input[type="checkbox"]:not(:checked), input[type="checkbox"]:checked {
 .nav-all-groups {
   display: inline-block;
   position: relative;
-  margin-right: 0%;
-  width: 100%;
+  margin-left: 10%;
+  width: 90%;
+  text-align: left;
 }
 
 .nav-group {
@@ -391,7 +400,6 @@ input[type="checkbox"]:not(:checked), input[type="checkbox"]:checked {
 
 .profile-icon {
   width: 250px;
-  margin-top: 2%;
 }
 
 .down-arrow {
@@ -431,7 +439,7 @@ input[type="checkbox"]:not(:checked), input[type="checkbox"]:checked {
   font-size: 1.2em;
   width: 30%;
   text-align: justify;
-  margin: 3% 0% 5% 35%;
+  margin: 2% 0% 2% 35%;
 }
 
 .profile-question{

@@ -28,6 +28,7 @@ class NavBar extends Component {
           next={this.props.next}
           step={this.props.step}
           userAnswers={this.props.userAnswers}
+          type="navBar"
         />}
         {!this.props.navButtons && <div className="nav-buttons"></div>}
       </div>
