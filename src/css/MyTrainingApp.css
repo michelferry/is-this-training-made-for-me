@@ -307,8 +307,8 @@ input[type="checkbox"]:not(:checked), input[type="checkbox"]:checked {
 }
 
 .prev, .next {
-  width: 12em;
-  margin: 0px 15px 0px 15px;
+  width: 10em;
+  margin: 0px 1em 0px 1em;
 }
 
 .nav-buttons{
