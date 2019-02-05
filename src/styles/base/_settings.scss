@@ -1,0 +1,36 @@
+//Colors
+$primary-color: #f36a10;
+$primary-color-boxhover: 0 6px 6px 0 rgba(0,0,0,0.26), 0 10px 20px 0 rgba(0,0,0,0.19);
+$secondary-color: #ffffff;
+$secondary-color-hover: rgba(243,106,16,0.24);
+$disabled-color: #666666;
+$disabled-color-hover: rgba(102,102,102,0.24);
+$background-light: #f3f3f3;
+$text-color: #666;
+
+//Font-size
+$font-xs: 1.2rem;
+$font-s: 1.4rem;
+$font-m: 1.6rem;
+$font-l: 2rem;
+$font-xl: 2.6rem;
+
+//Fonts
+@font-face {
+  font-family: "Aileron";
+  src: url("../fonts/Aileron-Regular.otf");
+ }
+ @font-face {
+  font-family: "Aileron Light";
+  src: url("../fonts/Aileron-Light.otf");
+ }
+ $font-family-primary: "Aileron", sans-serif;
+ $font-family-secondary: "Aileron Light", sans-serif;
+
+//Spacing
+$margin-xs: 1rem;
+$margin-s: 2rem;
+$margin-m: 3rem;
+$margin-l: 4rem;
+$margin-xl: 5rem;
+$margin-xxl: 15rem;

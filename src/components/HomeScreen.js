@@ -4,6 +4,7 @@ import path_mentor from '../img/path_mentor.svg';
 import path_calendar from '../img/path_calendar.svg';
 import path_degree from '../img/path_degree.svg';
 import path_garantee from '../img/path_garantee.svg';
+import '../styles/components/OC.scss';
 
 class HomeScreen extends Component {
 

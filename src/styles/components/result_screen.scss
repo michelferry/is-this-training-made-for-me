@@ -1,0 +1,82 @@
+.profile-icon {
+  width: 250px;
+}
+
+.down-arrow {
+  width: 100px;
+  cursor: pointer;
+  animation-name: pulse_animation;
+  animation-duration: 5000ms;
+  transform-origin:70% 70%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes pulse_animation {
+  0% { transform: scale(1); }
+  30% { transform: scale(1); }
+  40% { transform: scale(1.15); }
+  50% { transform: scale(1); }
+  60% { transform: scale(1); }
+  70% { transform: scale(1.15); }
+  80% { transform: scale(1); }
+  100% { transform: scale(1); }
+}
+
+.profile-name {
+  color: $disabled-color;
+  font-size: $font-l;
+  font-weight: bold;
+  margin: 2% 0em 0.4em 0em;
+}
+
+.profile-shortDesc{
+  color: $disabled-color;
+  font-size: $font-m;
+}
+
+.profile-longDesc{
+  font-size: $font-s;
+  width: 30%;
+  text-align: justify;
+  margin: 2% 0% 2% 35%;
+}
+
+.profile-question{
+  color: $disabled-color;
+  font-size: $font-m;
+  font-weight: bold;
+  text-align: left;
+  margin: 3% 0% 0% 15%;
+}
+
+.profile-user-question{
+  background-color: $background-light;
+  padding: 2% 0% 2% 0%;
+  color: $disabled-color;
+  font-size: $font-m;
+  margin: 2% 0% 2% 0%;
+}
+
+.profile-paragraph{
+  margin: 2% 0% 0% 15%;
+  font-size: $font-xs;
+  width: 70%;
+  text-align: justify;
+}
+
+.bullet-points-profile{
+  margin: 2% 20% 0% 20%;
+  text-align: left;
+  list-style-image: url('../img/check_very_small.png');
+}
+
+.bullet-points-profile li{
+  margin: 2% 0% 2% 0%;
+  font-size: $font-xs;
+}
+
+.testimony{
+  margin-top: 2%;
+  margin-bottom: 3%;
+}

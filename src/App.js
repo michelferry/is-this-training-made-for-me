@@ -7,9 +7,8 @@ import QuestionScreen from './components/QuestionScreen.js';
 import ProfileScreen from './components/ProfileScreen.js';
 import LoadingScreen from './components/LoadingScreen.js';
 import ResultScreen from './components/ResultScreen.js';
-import './css/mediaQueries.css';
-import './css/OC.css';
-import './css/MyTrainingApp.css';
+import "normalize.css/normalize.css";
+import './styles/styles.scss';
 
 var config = {
   apiKey: "AIzaSyB_YBvE_6t5MqrMHYXJUL1rNGEzKy4aeJM",

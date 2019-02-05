@@ -1,0 +1,43 @@
+.answers-group{
+  margin: 3% 0% 3% 15%;
+}
+
+.answer{
+  display: flex;
+  align-items: center;
+  height: $font-xl;
+  margin: $margin-s 0;
+  cursor: pointer;
+}
+
+.radioButton {
+  width: $font-l;
+  height: $font-l;
+  border-radius: 50%;
+  border: 1px solid $disabled-color;
+  background-color: $secondary-color;
+  display: inline-block;
+  margin: 0 $margin-s 0 0;
+  &:hover{
+    border: 1px solid $primary-color;
+    background-color: $secondary-color-hover !important;
+  }
+}
+
+.radioButton.checked {
+  background-color: $primary-color;
+  border: 1px solid $primary-color;
+}
+
+.answer-text{
+  display: inline-block;
+  color: $disabled-color;
+  font-size: $font-m;
+  &:hover{
+    color:  $secondary-color-hover !important;
+  }
+}
+
+.answer-text.text-selected{
+  color: $primary-color;
+}

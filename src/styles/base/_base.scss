@@ -1,0 +1,107 @@
+/* GENERIC HTML TAGS */
+html {
+  font-size: 62.5%;
+  @media screen and (min-width: 901px) and (max-width: 1700px) {
+    font-size: 87.5%;
+  }
+  @media screen and (min-width: 1701px) {
+    font-size: 100%;
+  }
+}
+
+body {
+  font-family: $font-family-primary;
+  font-size: $font-xs;
+  min-height: 90vh;
+}
+
+body > div > div {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: $font-family-secondary;
+  font-size: $font-xl;
+  margin: $margin-xl 0 $margin-xl 0;
+}
+
+h2 {
+  font-family: $font-family-secondary;
+  font-size: $font-l;
+  padding: $margin-l 0 $margin-l 0;
+  margin: 0 0 0 0;
+}
+
+h3 {
+  font-size: $font-m;
+  font-weight: normal;
+}
+
+button {
+  border-radius: 6px;
+  border: 2px $primary-color solid;
+  padding: $margin-xs $margin-s;
+  font-size: $font-s;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 300ms, border 300ms;
+}
+
+button.disabled {
+  cursor: default;
+  background-color: $secondary-color;
+  border: 2px $disabled-color solid;
+  color: $disabled-color;
+  &:hover {
+    background-color: $disabled-color-hover;
+  }
+}
+
+button.primary {
+  background-color: $primary-color;
+  color: $secondary-color;
+  &:hover {
+    box-shadow: $primary-color-boxhover;
+    -webkit-box-shadow: $primary-color-boxhover;
+  }
+}
+
+button.secondary {
+  background-color: $secondary-color;
+  color: $primary-color;
+  &:hover {
+    background-color: $secondary-color-hover;
+  }
+}
+
+/* GENERAL CLASSES */
+.highlight-section {
+  background-color: $background-light;
+  padding: $margin-m $margin-xl;
+  font-size: $font-m;
+  margin: $margin-s 0;
+  text-align: left;
+}
+
+/* DISPOSITIONS */
+.horizontal-center {
+  text-align: center;
+}
+
+.full {
+  width: 100%;
+}
+
+.fullPage{
+  height: 100vh;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.relative {
+  position: relative;
+}

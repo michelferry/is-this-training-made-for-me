@@ -1,0 +1,20 @@
+.loading-screen{
+  margin-top: $margin-l;
+  text-align: center;
+}
+
+.progress-bar{
+  position: relative;
+  height: $font-l;
+  width: 60%;
+  margin: auto;
+  border-radius: 0.6rem;
+  border: 1px solid $primary-color;
+}
+
+.filler{
+  background-color: $primary-color;
+  height: 100%;
+  border-radius: 0.4rem;
+  max-width: 100%;
+}
